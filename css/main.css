@@ -80,7 +80,7 @@ html, body {
 
 .nav-row {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	column-gap: 30px;    /*адаптація мін відстань  між  log nav*/
 	row-gap: 20px;			/*адаптація мін відстань між рядами logo nav*/
@@ -88,6 +88,7 @@ html, body {
 }
 
 .logo {
+	margin-right: auto;
 	color: var(--header-text);
 	font-size: 24px;
 	font-family: 'Poppins', sans-serif;
@@ -138,6 +139,7 @@ html, body {
         /*Dark-mode-btn*/
 
 .dark-mode-btn {
+		order: 9;
 		position: relative;
 		display: flex;
 		justify-content: space-between;
@@ -439,6 +441,20 @@ html, body {
 		.header__titile strong {
 			font-size: 40px;
 		}
+
+		/*Nav*/
+
+		.nav-row {
+			justify-content:space-between;
+
+		}
+
+		.dark-mode-btn {
+			order: 0;
+
+		}
+			
+		
 
 
 		/*General*/
