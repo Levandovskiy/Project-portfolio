@@ -513,8 +513,6 @@ li.social__item:hover {
 
 		}
 			
-		
-
 
 		/*General*/
 
@@ -584,6 +582,6 @@ li.social__item:hover {
 	}
 
 	.title-1 {
-		margin-top: 0;
+		margin-top: 50px;
 	}
 }
