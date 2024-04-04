@@ -54,6 +54,7 @@ html, body {
 	min-height: 100vh; 
 	display: flex;
 	flex-direction: column;
+	
 
 		/*Light mode*/
 
@@ -469,7 +470,7 @@ h3.project__titile:hover {
 }
 
 li.social__item:hover {
-	opacity: 0.8;
+opacity: 0.8;
 }
 
 
